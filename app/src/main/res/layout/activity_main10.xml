@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.studyjams.s2.sj0217.hunansnack.Main10Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingTop="16dp"
+        android:textSize="36dp"
+        android:textColor="#1A237E"
+        android:text="栖凤渡鱼粉"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/yf" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:paddingTop="40dp"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:text="        是湖南郴州的招牌粉,汤是用鲜活鲢鱼熬制而成,味鲜而极有营养。一说起栖凤渡鱼粉，只要是郴州人，应该都会下意识咂一下嘴巴，咽咽口水，于是，一股浓烈的鱼香和着辛辣味便回味在你嘴里了。"/>
+
+</LinearLayout>

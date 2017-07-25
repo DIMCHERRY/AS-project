@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.studyjams.s2.sj0217.hunansnack.Main7Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingTop="16dp"
+        android:textSize="36dp"
+        android:textColor="#1A237E"
+        android:text="红烧猪蹄"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/hszt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:paddingTop="40dp"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:text="        红烧猪脚是长沙人钟爱的美食，既可以当小吃，也可以作为菜肴上桌。猪脚中含有胶原蛋白，可以美容，所以你看长沙的姑娘长得多水灵一个个。长沙比较出名的吃猪脚的饭店有大碗厨和郑记黄金台，伍氏猪脚则是后起之秀。"/>
+
+</LinearLayout>

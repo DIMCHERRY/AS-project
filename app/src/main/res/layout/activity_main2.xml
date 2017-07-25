@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.studyjams.s2.sj0217.hunansnack.Main2Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingTop="16dp"
+        android:textSize="36dp"
+        android:textColor="#1A237E"
+        android:text="长沙臭豆腐"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/cdf" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:paddingTop="40dp"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:text="        看上去脏乎乎而且臭臭的东西，油炸之后格外的香，灌上辣椒水和榨菜葱花等佐料，简直能把口水都流干。
+    臭豆腐闻起来臭吃起来香。现在长沙最有名的臭豆腐除了火宫殿，还有黑色经典，岳麓山下登高路边的臭豆腐也不错。"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.studyjams.s2.sj0217.hunansnack.Main8Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingTop="16dp"
+        android:textSize="36dp"
+        android:textColor="#1A237E"
+        android:text="烧卖"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/sm" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:paddingTop="40dp"
+        android:textSize="22dp"
+        android:textColor="#000000"
+        android:text="       烧卖是大众喜爱的食品之一。长沙火宫殿、玉楼东的菊花烧卖更是深受长沙人的喜爱。菊花烧卖包皮透亮，味咸椒香，顶端开口处用蛋黄点缀成菊花瓣状，更显雅致。糯米陷松软而不熟烂，粒粒可数。"/>
+
+</LinearLayout>

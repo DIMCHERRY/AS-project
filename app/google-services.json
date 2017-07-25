@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "470113850179",
+    "firebase_url": "https://hunansnack.firebaseio.com",
+    "project_id": "hunansnack",
+    "storage_bucket": "hunansnack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470113850179:android:93dd53d04f03127d",
+        "android_client_info": {
+          "package_name": "cn.studyjams.s2.sj0217.hunansnack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470113850179-ooo578vq3pku4k0mv8u4of5juvi7vnak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPcEHTrxyfxGE2z8gMnIXdlC-KmOPGV64"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

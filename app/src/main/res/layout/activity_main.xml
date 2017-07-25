@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.studyjams.s2.sj0217.hunansnack.MainActivity">
+    <item
+        android:id="@+id/add"
+        android:title="Add"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="经典湖南小吃介绍"
+        android:textColor="#F44336"
+        android:textSize="36sp"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="415dp"
+        android:layout_height="161dp"
+        android:src="@drawable/fat"
+        android:layout_gravity="center"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:id="@+id/imageView" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cj"
+        android:text="春卷"
+        android:textSize="36dp"
+        android:background="#FF9800"
+        android:layout_alignBaseline="@+id/kwx"
+        android:layout_alignBottom="@+id/kwx"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/kwx"
+        android:text="口味虾"
+        android:textSize="36dp"
+        android:background="#FF9800"
+        android:layout_alignBaseline="@+id/tybb"
+        android:layout_alignBottom="@+id/tybb"
+        android:layout_toRightOf="@+id/tybb"
+        android:layout_toEndOf="@+id/tybb"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tybb"
+        android:text="糖油粑粑"
+        android:textSize="36dp"
+        android:background="#FF9800"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spm"
+        android:text="长沙臭豆腐"
+        android:textSize="35dp"
+        android:background="#FF9800"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jsnrf"
+        android:text="津市牛肉粉"
+        android:textSize="36dp"
+        android:background="#FF9800"
+        android:layout_alignTop="@+id/spm"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qfdyf"
+        android:text="栖凤渡鱼粉"
+        android:textSize="36dp"
+        android:background="#FF9800"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/jsnrf"
+        android:layout_alignLeft="@+id/jsnrf"
+        android:layout_alignStart="@+id/jsnrf" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sl"
+        android:text="嗦螺"
+        android:textSize="36dp"
+        android:background="#FF9800"
+        android:layout_below="@+id/qfdyf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hszt"
+        android:text="红烧猪蹄"
+        android:textSize="36dp"
+        android:background="#FF9800"
+        android:layout_alignBaseline="@+id/sl"
+        android:layout_alignBottom="@+id/sl"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/djyt"
+        android:text="剁椒鱼头"
+        android:textSize="36dp"
+        android:background="#FF9800"
+        android:layout_above="@+id/sl"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sm"
+        android:text="烧卖"
+        android:textSize="36dp"
+        android:background="#FF9800"
+        android:layout_alignBaseline="@+id/hszt"
+        android:layout_alignBottom="@+id/hszt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
